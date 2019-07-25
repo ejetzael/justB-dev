@@ -1,0 +1,40 @@
+.header-justb {
+    border-bottom: 4px solid #f5329b;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.mainmenu-justb {
+    background-color: #32c8f0;
+}
+
+.mainmenu-justb > .ed-menu a {
+    color: #41423c;
+}
+.mainmenu-justb > .ed-menu a:hover {
+    background-color: rgba(255,255,255,.3);
+}
+.vplayingcontent {
+    background-color: #a0a0a0;
+}
+.framevideo {
+    background-color: #606060;
+    margin: 20px;
+    padding: 100px;
+}
+.sec-howwejustb {
+    background-color: #32c8f0;
+    color: #d2e6f0;
+    padding: 30px;
+}
+.sec-schoolsjustb {
+    background-color: #f5329b;
+    color: #f0bedc;
+    padding: 30px;
+}
+.sec-picjustb {
+    padding: 20px;
+}
+
+.z-depth-2 {
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3)
+}
