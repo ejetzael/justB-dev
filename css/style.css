@@ -19,8 +19,10 @@
 .framevideo {
     background-color: #606060;
     margin: 20px;
-    padding: 100px;
+    padding: 20px;
+    min-height: 90vh;
 }
+
 .sec-howwejustb {
     background-color: #32c8f0;
     color: #d2e6f0;
