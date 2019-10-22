@@ -87,3 +87,7 @@
     text-decoration: none;
     background-color: rgb(195, 206, 209);
 }
+
+.card {
+    border: 0px;
+}
