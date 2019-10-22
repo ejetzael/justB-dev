@@ -7,6 +7,8 @@
     <title>Just-B</title>
     <link rel="stylesheet" href="./css/ed-grid.css">
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
     <header class="ed-container full header-justb">
@@ -70,18 +72,18 @@
             <section class="ed-container  ed-item sec-whitejustb">
                 <div class="ed-item m-50 s-50 s-block-center ">
                     <ul class="type-config s-center">
-                        <li><a href="https://youtu.be/daD3IbH8InE" target="_blank">Love and its opposite</a></li>
-                        <li><a href="https://youtu.be/daD3IbH8InE" target="_blank">Hate and its opposite</a></li>
-                        <li><a href="https://youtu.be/daD3IbH8InE" target="_blank">Passion</a></li>
-                        <li><a href="https://youtu.be/daD3IbH8InE" target="_blank">Tranquility</a></li>
-                        <li><a href="https://youtu.be/daD3IbH8InE" target="_blank">Happiness</a></li>
-                        <li><a href="https://youtu.be/daD3IbH8InE" target="_blank">Sadness</a></li>
-                        <li><a href="https://youtu.be/daD3IbH8InE" target="_blank">Frustration</a></li>
+                        <li><a data-toggle="modal" data-target=".bd-example-modal-xl">Love and its opposite</a></li>
+                        <li><a data-toggle="modal" data-target=".bd-example-modal-xl">Hate and its opposite</a></li>
+                        <li><a data-toggle="modal" data-target=".bd-example-modal-xl">Passion</a></li>
+                        <li><a data-toggle="modal" data-target=".bd-example-modal-xl">Tranquility</a></li>
+                        <li><a data-toggle="modal" data-target=".bd-example-modal-xl">Happiness</a></li>
+                        <li><a data-toggle="modal" data-target=".bd-example-modal-xl">Sadness</a></li>
+                        <li><a data-toggle="modal" data-target=".bd-example-modal-xl">Frustration</a></li>
                     </ul>
                 </div>
                 <div class="ed-item m-50 s-50 s-block-center ">
                     <ul class="type-config s-center">
-                        <li><a href="https://youtu.be/QEDaGdZ_dUg" target="_blank">Play</a></li>
+                        <li><a data-toggle="modal" data-target=".laplay">Play</a></li>
                     </ul>
                 </div>
                 <div class="ed-item divider">
@@ -107,5 +109,34 @@
             </ul>
         </article>
     </footer> -->
+
+
+
+    <aside class="nocontrol">
+        <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="ed-video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/daD3IbH8InE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade laplay" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="ed-video">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/QEDaGdZ_dUg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </aside>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
